@@ -7,6 +7,6 @@ describe("add", () => {
   });
 
   it("subtracts two numbers", () => {
-    expect(subtract(5, 3)).toBe(999);
+    expect(subtract(5, 3)).toBe(2);
   });
 });

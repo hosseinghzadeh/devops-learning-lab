@@ -1,0 +1,26 @@
+{
+  "type": "module",
+  "name": "ci-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.4.1",
+    "@types/supertest": "^7.2.1",
+    "supertest": "^7.2.2",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.0"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
